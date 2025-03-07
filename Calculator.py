@@ -21,7 +21,7 @@ def Button_Add():
     math="addition"
     e.delete(0,END)
 
-def Button_Equal():
+def Button_Equal_():
     s_num=int(e.get())
     e.delete(0,END)
     if math =="addition":
@@ -66,7 +66,7 @@ Button_8=Button(root,text="8",padx=23,pady=25,command=lambda:Button_Click(8))
 Button_9=Button(root,text="9",padx=23,pady=25,command=lambda:Button_Click(9))
 Button_0=Button(root,text="0",padx=23,pady=25,command=lambda:Button_Click(0))
 Button_add=Button(root,text="+",padx=23,pady=25,command=Button_Add)
-Button_equal=Button(root,text="=",padx=48,pady=25,command=Button_Equal)
+Button_equal=Button(root,text="=",padx=48,pady=25,command=Button_Equal_)
 Button_clear=Button(root,text="AC",padx=46,pady=25,command=Button_Clear)
 Button_subtract=Button(root,text="-",padx=23,pady=25,command=Button_Subtract)
 Button_multi=Button(root,text="x",padx=23,pady=25,command=Button_Multiply)
