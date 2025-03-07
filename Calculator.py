@@ -26,7 +26,7 @@ def Button_Equal():
     e.delete(0,END)
     if math =="addition":
         e.insert(0,f_num+s_num)
-    if math =="substraction":
+    if math =="Substraction":
         e.insert(0,f_num-s_num)
     if math =="multiplication":
         e.insert(0,f_num*s_num)
@@ -36,7 +36,7 @@ def Button_Equal():
 def Button_Subtract():
     global f_num
     global math 
-    math="substraction"
+    math="Substraction"
     f_num= int(e.get())
     e.delete(0,END)  
 
